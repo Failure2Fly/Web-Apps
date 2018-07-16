@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Save The Bees</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="bar.css" />
+    <link rel="stylesheet" href="slideshow.css" />
+    <link rel="stylesheet" href="donation.css" />
+    <script src="global.js"></script>
+  </head>
+  <body>
+    
+    
+    <div class="nav-bar">
+      <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-NTqMyRLuhhqdocAtn_5K7515olA2xD1tMeel9lW-1lko-WLNA" />
+      <span><h1 class="title">Save The Bees</h1></span>
+      <ul>
+        <li><a href="=">About</a></li>
+        <li><a href="=">Donate</a></li>
+        <li><a href="=">Events</a></li>
+        <li><a href="=">Bee Facts</a></li>
+      </ul>
+      <div class="mobile-nav">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+    
+    <section>
+      <div class="CSSgal">
+
+        <!-- Don't wrap targets in parent -->
+        <s id="s1"></s> 
+        <s id="s2"></s>
+        <s id="s3"></s>
+        <s id="s4"></s>
+
+        <div class="slider">
+          <div class="img1">
+            <img src="https://placeimg.com/1000/350/any" alt="Image description" />
+          </div>
+          <div style="img1">
+            <img src="https://placeimg.com/1000/350/any" alt="Image description" />
+          </div>
+          <div style="img1">
+            <img src="https://placeimg.com/1000/350/any" alt="Image description" />
+          </div>
+          <div style="img1">
+            <img src="https://placeimg.com/1000/350/any" alt="Image description" />
+          </div>
+        </div>
+
+        <div class="prevNext">
+          <div><a href="#s4"></a><a href="#s2"></a></div>
+          <div><a href="#s1"></a><a href="#s3"></a></div>
+          <div><a href="#s2"></a><a href="#s4"></a></div>
+          <div><a href="#s3"></a><a href="#s1"></a></div>
+        </div>
+
+        <div class="bullets">
+          <a href="#s1">1</a>
+          <a href="#s2">2</a>
+          <a href="#s3">3</a>
+          <a href="#s4">4</a>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <main>
+      
+      <div class="space">
+      </div>
+      
+      <div class="progress-bg">
+        <div class="progress-bar">
+          <h3 class="raised">$75,000 Raised </h3>
+        </div>
+        <h3 class="goal"> $100,000</h3>
+      </div>
+      
+      <div class="space">
+      </div>
+ 
+      <div class="button" style="display: flex; justify-content: center;">
+        <span class="myButton" id="myButton" style="background-color: rgb(68, 199, 103); border-radius: 20px; border: 7px solid rgb(24, 171, 41); display: inline-block; cursor: pointer; color: rgb(255, 255, 255); font-family: Verdana; font-size: 17px; font-weight: bold; padding: 16px 57px; text-decoration: none; text-shadow: rgb(47, 102, 39) -2px -2px 0px;">Donate Now</span>
+      </div>
+      
+      <section class="donate-form" style="display: none;">
+        <div class="donation-container">
+            
+            <div class="donation-box">
+	            <div class="title">Donation Information</div>
+	            
+	            <div class="fields">
+		            <input type="text" id="firstName" placeholder="First Name"> </input>
+		            <input type="text" id="lastName" placeholder="Last Name"> </input>
+		            <input type="text" id="email" placeholder="Email"> </input>
+	            </div>
+	            
+	            <div class="amount">
+		            <div class="button">$30</div>
+		            <div class="button">$50</div>
+		            <div class="button">$100</div>
+		            <div class="button">$<input type="text" class="set-amount" placeholder=""> </input></div>
+	            </div>
+	            
+	            <div class="switch">
+					<input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+					<label for="one-time" class="switch-label switch-label-off">One-Time</label>
+					<input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+					<label for="monthly" class="switch-label switch-label-on">Monthly</label>
+					<span class="switch-selection"></span>
+			    </div>
+			    
+			    <div class="checkboxes">
+					<input type="checkbox" id="receipt" class="checkbox" />
+					<label for="receipt">Email Me A Receipt</label>
+					<br />
+					<input type="checkbox" id="anon" class="checkbox" />
+					<label for="anon">Give Anonymously</label>
+					<br />
+					<input type="checkbox" id="list" class="checkbox" />
+					<label for="list">Add Me To Email List</label>
+			    </div>
+			    
+			    <div class="confirm">
+				    
+			    </div>
+	            
+	            <div class="donate-button"><i class="fa fa-credit-card"></i> Donate Now</div>
+            </div>
+            
+        </div>
+      
+      </section>
+      
+      <div class="events-news" style="display: flex;">
+        <div class="events">
+          <div class="events-title">
+            <h1>Events</h1>
+          </div>
+          <div class="event-list">
+            <img class="event-img" src="https://placeimg.com/1000/480/any" alt="Image description" />
+            <div class="event-desc">
+              <h3>Title</h3>
+              <p>This is where the Description goes. If it carries long enough it will wrap</p>
+            </div>
+          </div> 
+          <div class="event-list">
+            <img class="event-img" src="https://placeimg.com/1000/480/any" alt="Image description" />
+            <div class="event-desc">
+              <h3>Title</h3>
+              <p>This is where the Description goes. If it carries long enough it will wrap</p>
+            </div>
+          </div>
+          <div class="event-list">
+            <img class="event-img" src="https://placeimg.com/1000/480/any" alt="Image description" />
+            <div class="event-desc">
+              <h3>Title</h3>
+              <p>This is where the Description goes. If it carries long enough it will wrap</p>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="news">
+          <div class="news-title">
+            <h1>News</h1>
+          </div>
+          <div class="event-list">
+            <img src="http://cdn.smosh.com/wp-content/uploads/2016/02/kanye-tweets-th-400x242.jpg" />
+          </div>
+        </div>
+      </div>
+
+      
+    </main>
+    
+
+    <footer>
+     <h2>Save The Bees</h2>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://raw.githubusercontent.com/jerryluk/jquery.autogrow/master/jquery.autogrow-min.js"></script>
+  </body>
+</html>

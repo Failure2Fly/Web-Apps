@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+
+body{
+  background-color: #E6C229;
+}
+main{
+  background-color: #e3c500;
+  background-image: url("https://www.transparenttextures.com/patterns/light-honeycomb-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.space{
+  padding: 10px;
+}
+
+<!----Navigation-->
+
+.nav-bar {
+  height: 100px;
+  width: 100%;
+}
+.logo{
+  width: 7%;
+  float: left;
+}
+.title{
+  color: black;
+}
+.nav-bar span {
+  float: left;
+  color: black;
+  font-size: 15px;
+  margin: 10px 20px;
+}
+
+.nav-bar ul {
+  float: right;
+  margin-top: 40px;
+}
+
+.nav-bar li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.nav-bar li:nth-child(4) {
+  margin-right: 15px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  border: 1px solid rgba(255,255,255,.5);
+  padding: 8px 15px 8px 15px;
+  transition: all 200ms ease;
+}
+
+.nav-bar a:hover {
+  background-color: black;
+  color: #E6C229;
+}
+.mobile-nav{
+  display: none;
+}
+
+<!----End-Navigation-->
+
+
+<!----Start-Image-->  
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section .media { 
+  min-width: 0;
+  margin: 5px;
+}
+section .main-img {
+  width: 1200;
+  max-width: 100%; 
+  max-height: 600px; 
+}
+<!----End-Image-->
+
+
+<!----Start-Donation-Button-->
+
+<!----End-Donation-Button-->
+
+<!----Start-Events-And-News---->
+.events-news{
+  display: flex;
+}
+.events{
+  height: 400px;
+  width: 50%;
+  border: 4px solid black;
+  margin: 10px;
+  background-color: #EFDC7C;
+}
+.event-img {
+  height: 25%;
+  width: 28%;
+}
+.event-list{
+  margin: 20px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.event-list h3{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+.event-list p{
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+.news{
+  height: 400px;
+  width: 50%;
+  border: 4px solid black;
+  margin: 10px;
+  background-color: #EFDC7C;
+}
+.events-title{
+  margin: auto 40px;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+.news-title{
+  margin: auto 40px;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+<!----End-Events-And-News---->
+
+
+footer{
+  margin-top: 30px;
+  height: 40px;
+  background-color: black;
+}
+footer h2{
+  color: black;
+}
+
+<!----Start-Media-Queries--->
+@media screen and (max-width: 321px)  {
+  .logo {
+    width: 18%;
+  }
+  .nav-bar span{
+    font-size: 13px;
+  }
+  .nav-bar ul{
+    display: none;
+  }
+  .mobile-nav{
+    display: block;
+    float: right;
+  }
+} 
+
+<!----Start-Media-Queries--->
+
